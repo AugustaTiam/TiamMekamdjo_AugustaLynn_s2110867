@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- location_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/location_item_background"
+    android:layout_weight="0.8"
+    >
+
+    <!-- Location Name TextView -->
+    <TextView
+        android:id="@+id/locationNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Location"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    <!-- Temperature TextView -->
+    <TextView
+        android:id="@+id/temperatureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20°C"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    <!-- Weather TextView -->
+    <TextView
+        android:id="@+id/weatherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunny"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    <!-- Time TextView -->
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:00 PM"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORECAST 1"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/forecast1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12C"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORECAST 2"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/forecast2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12C"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
